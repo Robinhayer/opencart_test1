@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-20T20:03:42 ADT" name="MySuite" finished-at="2023-09-20T20:04:02 ADT" duration-ms="20335">
+    <groups>
+    </groups>
+    <test started-at="2023-09-20T20:03:42 ADT" name="OpenCartTest" finished-at="2023-09-20T20:04:02 ADT" duration-ms="20335">
+      <class name="testCases.TC_002_Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_002_Login@6e6f2380]" started-at="2023-09-20T20:03:53 ADT" name="setup" finished-at="2023-09-20T20:03:56 ADT" duration-ms="2658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login_test()[pri:0, instance:testCases.TC_002_Login@6e6f2380]" started-at="2023-09-20T20:03:56 ADT" name="login_test" finished-at="2023-09-20T20:04:02 ADT" duration-ms="6013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_test -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:testCases.TC_002_Login@6e6f2380]" started-at="2023-09-20T20:04:02 ADT" name="Teardown" finished-at="2023-09-20T20:04:02 ADT" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- testCases.TC_002_Login -->
+      <class name="testCases.TC_001_AccountRegistration">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_001_AccountRegistration@f78a47e]" started-at="2023-09-20T20:03:42 ADT" name="setup" finished-at="2023-09-20T20:03:48 ADT" duration-ms="6043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_account_registartion()[pri:0, instance:testCases.TC_001_AccountRegistration@f78a47e]" started-at="2023-09-20T20:03:48 ADT" name="test_account_registartion" finished-at="2023-09-20T20:03:53 ADT" duration-ms="5238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_account_registartion -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:testCases.TC_001_AccountRegistration@f78a47e]" started-at="2023-09-20T20:03:53 ADT" name="Teardown" finished-at="2023-09-20T20:03:53 ADT" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- testCases.TC_001_AccountRegistration -->
+    </test> <!-- OpenCartTest -->
+  </suite> <!-- MySuite -->
+</testng-results>
