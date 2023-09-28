@@ -40,7 +40,7 @@ public class BaseClass
 		driver=new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get(rb.getString("url1"));
+		driver.get(rb.getString("URL2"));
 		driver.manage().window().maximize();
 		
 		
