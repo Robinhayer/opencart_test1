@@ -4,7 +4,6 @@
 
   <test thread-count="5" name="OpenCartTest">
     <classes>
-      <class name="testCases.TC_001_AccountRegistration"/>d
       <class name="testCases.TC_002_Login"/>
      <!-- <class name="testCases.TC_003LoginDDT"></class>-->
     </classes>
